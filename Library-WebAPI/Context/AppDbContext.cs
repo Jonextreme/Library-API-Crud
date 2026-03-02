@@ -1,4 +1,5 @@
-﻿using Library_WebAPI.Entities;
+﻿using Library_WebAPI.Configuration;
+using Library_WebAPI.Entities;
 using Microsoft.EntityFrameworkCore;
 
 namespace Library_WebAPI.Context
@@ -10,5 +11,15 @@ namespace Library_WebAPI.Context
         public DbSet<Genre> Genres { get; set; }
         public DbSet<Loan> Loans { get; set; }
         public DbSet<User> Users { get; set; }
+
+        protected override void OnModelCreating(ModelBuilder modelBuilder)
+        {
+            modelBuilder.ApplyConfiguration(new AuthorConfiguration());
+            modelBuilder.ApplyConfiguration(new BookConfiguration());
+            modelBuilder.ApplyConfiguration(new GenreConfiguration());
+            modelBuilder.ApplyConfiguration(new LoanConfiguration());
+            modelBuilder.ApplyConfiguration(new UserConfiguration());
+            base.OnModelCreating(modelBuilder);
+        }
     }
 }

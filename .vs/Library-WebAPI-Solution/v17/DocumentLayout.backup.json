@@ -3,16 +3,48 @@
   "WorkspaceRootPath": "C:\\Users\\USER\\Estudo\\Library-WebAPI-Solution\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{94909318-2707-44E1-8FB3-439CB759DBE9}|Library-WebAPI\\Library-WebAPI.csproj|c:\\users\\user\\estudo\\library-webapi-solution\\library-webapi\\configuration\\authorconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{94909318-2707-44E1-8FB3-439CB759DBE9}|Library-WebAPI\\Library-WebAPI.csproj|solutionrelative:library-webapi\\configuration\\authorconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{94909318-2707-44E1-8FB3-439CB759DBE9}|Library-WebAPI\\Library-WebAPI.csproj|c:\\users\\user\\estudo\\library-webapi-solution\\library-webapi\\configuration\\loanconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{94909318-2707-44E1-8FB3-439CB759DBE9}|Library-WebAPI\\Library-WebAPI.csproj|solutionrelative:library-webapi\\configuration\\loanconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{94909318-2707-44E1-8FB3-439CB759DBE9}|Library-WebAPI\\Library-WebAPI.csproj|c:\\users\\user\\estudo\\library-webapi-solution\\library-webapi\\configuration\\bookconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{94909318-2707-44E1-8FB3-439CB759DBE9}|Library-WebAPI\\Library-WebAPI.csproj|solutionrelative:library-webapi\\configuration\\bookconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{94909318-2707-44E1-8FB3-439CB759DBE9}|Library-WebAPI\\Library-WebAPI.csproj|c:\\users\\user\\estudo\\library-webapi-solution\\library-webapi\\context\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{94909318-2707-44E1-8FB3-439CB759DBE9}|Library-WebAPI\\Library-WebAPI.csproj|solutionrelative:library-webapi\\context\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{94909318-2707-44E1-8FB3-439CB759DBE9}|Library-WebAPI\\Library-WebAPI.csproj|c:\\users\\user\\estudo\\library-webapi-solution\\library-webapi\\configuration\\userconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{94909318-2707-44E1-8FB3-439CB759DBE9}|Library-WebAPI\\Library-WebAPI.csproj|solutionrelative:library-webapi\\configuration\\userconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{94909318-2707-44E1-8FB3-439CB759DBE9}|Library-WebAPI\\Library-WebAPI.csproj|c:\\users\\user\\estudo\\library-webapi-solution\\library-webapi\\configuration\\genreconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{94909318-2707-44E1-8FB3-439CB759DBE9}|Library-WebAPI\\Library-WebAPI.csproj|solutionrelative:library-webapi\\configuration\\genreconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{94909318-2707-44E1-8FB3-439CB759DBE9}|Library-WebAPI\\Library-WebAPI.csproj|c:\\users\\user\\estudo\\library-webapi-solution\\library-webapi\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{94909318-2707-44E1-8FB3-439CB759DBE9}|Library-WebAPI\\Library-WebAPI.csproj|solutionrelative:library-webapi\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{94909318-2707-44E1-8FB3-439CB759DBE9}|Library-WebAPI\\Library-WebAPI.csproj|c:\\users\\user\\estudo\\library-webapi-solution\\library-webapi\\library-webapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
-      "RelativeMoniker": "D:0:0:{94909318-2707-44E1-8FB3-439CB759DBE9}|Library-WebAPI\\Library-WebAPI.csproj|solutionrelative:library-webapi\\library-webapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+      "AbsoluteMoniker": "D:0:0:{94909318-2707-44E1-8FB3-439CB759DBE9}|Library-WebAPI\\Library-WebAPI.csproj|c:\\users\\user\\estudo\\library-webapi-solution\\library-webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{94909318-2707-44E1-8FB3-439CB759DBE9}|Library-WebAPI\\Library-WebAPI.csproj|solutionrelative:library-webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{94909318-2707-44E1-8FB3-439CB759DBE9}|Library-WebAPI\\Library-WebAPI.csproj|c:\\users\\user\\estudo\\library-webapi-solution\\library-webapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{94909318-2707-44E1-8FB3-439CB759DBE9}|Library-WebAPI\\Library-WebAPI.csproj|solutionrelative:library-webapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{94909318-2707-44E1-8FB3-439CB759DBE9}|Library-WebAPI\\Library-WebAPI.csproj|c:\\users\\user\\estudo\\library-webapi-solution\\library-webapi\\library-webapi.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
+      "RelativeMoniker": "D:0:0:{94909318-2707-44E1-8FB3-439CB759DBE9}|Library-WebAPI\\Library-WebAPI.csproj|solutionrelative:library-webapi\\library-webapi.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{94909318-2707-44E1-8FB3-439CB759DBE9}|Library-WebAPI\\Library-WebAPI.csproj|c:\\users\\user\\estudo\\library-webapi-solution\\library-webapi\\library-webapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{94909318-2707-44E1-8FB3-439CB759DBE9}|Library-WebAPI\\Library-WebAPI.csproj|solutionrelative:library-webapi\\library-webapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,7 +54,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Bookmark",
@@ -42,32 +74,131 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "LoanConfiguration.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\Estudo\\Library-WebAPI-Solution\\Library-WebAPI\\Configuration\\LoanConfiguration.cs",
+              "RelativeDocumentMoniker": "Library-WebAPI\\Configuration\\LoanConfiguration.cs",
+              "ToolTip": "C:\\Users\\USER\\Estudo\\Library-WebAPI-Solution\\Library-WebAPI\\Configuration\\LoanConfiguration.cs",
+              "RelativeToolTip": "Library-WebAPI\\Configuration\\LoanConfiguration.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-25T17:45:29.448Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "GenreConfiguration.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\Estudo\\Library-WebAPI-Solution\\Library-WebAPI\\Configuration\\GenreConfiguration.cs",
+              "RelativeDocumentMoniker": "Library-WebAPI\\Configuration\\GenreConfiguration.cs",
+              "ToolTip": "C:\\Users\\USER\\Estudo\\Library-WebAPI-Solution\\Library-WebAPI\\Configuration\\GenreConfiguration.cs",
+              "RelativeToolTip": "Library-WebAPI\\Configuration\\GenreConfiguration.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-25T17:45:16.998Z"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "AuthorConfiguration.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\Estudo\\Library-WebAPI-Solution\\Library-WebAPI\\Configuration\\AuthorConfiguration.cs",
+              "RelativeDocumentMoniker": "Library-WebAPI\\Configuration\\AuthorConfiguration.cs",
+              "ToolTip": "C:\\Users\\USER\\Estudo\\Library-WebAPI-Solution\\Library-WebAPI\\Configuration\\AuthorConfiguration.cs",
+              "RelativeToolTip": "Library-WebAPI\\Configuration\\AuthorConfiguration.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-25T17:45:03.067Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "UserConfiguration.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\Estudo\\Library-WebAPI-Solution\\Library-WebAPI\\Configuration\\UserConfiguration.cs",
+              "RelativeDocumentMoniker": "Library-WebAPI\\Configuration\\UserConfiguration.cs",
+              "ToolTip": "C:\\Users\\USER\\Estudo\\Library-WebAPI-Solution\\Library-WebAPI\\Configuration\\UserConfiguration.cs",
+              "RelativeToolTip": "Library-WebAPI\\Configuration\\UserConfiguration.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-25T17:45:24.214Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "BookConfiguration.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\Estudo\\Library-WebAPI-Solution\\Library-WebAPI\\Configuration\\BookConfiguration.cs",
+              "RelativeDocumentMoniker": "Library-WebAPI\\Configuration\\BookConfiguration.cs",
+              "ToolTip": "C:\\Users\\USER\\Estudo\\Library-WebAPI-Solution\\Library-WebAPI\\Configuration\\BookConfiguration.cs",
+              "RelativeToolTip": "Library-WebAPI\\Configuration\\BookConfiguration.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-25T17:45:10.76Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\Estudo\\Library-WebAPI-Solution\\Library-WebAPI\\Context\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "Library-WebAPI\\Context\\AppDbContext.cs",
+              "ToolTip": "C:\\Users\\USER\\Estudo\\Library-WebAPI-Solution\\Library-WebAPI\\Context\\AppDbContext.cs",
+              "RelativeToolTip": "Library-WebAPI\\Context\\AppDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-25T17:44:34.021Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\Estudo\\Library-WebAPI-Solution\\Library-WebAPI\\Program.cs",
+              "RelativeDocumentMoniker": "Library-WebAPI\\Program.cs",
+              "ToolTip": "C:\\Users\\USER\\Estudo\\Library-WebAPI-Solution\\Library-WebAPI\\Program.cs",
+              "RelativeToolTip": "Library-WebAPI\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-24T00:42:50.859Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Library-WebAPI.http",
+              "DocumentMoniker": "C:\\Users\\USER\\Estudo\\Library-WebAPI-Solution\\Library-WebAPI\\Library-WebAPI.http",
+              "RelativeDocumentMoniker": "Library-WebAPI\\Library-WebAPI.http",
+              "ToolTip": "C:\\Users\\USER\\Estudo\\Library-WebAPI-Solution\\Library-WebAPI\\Library-WebAPI.http",
+              "RelativeToolTip": "Library-WebAPI\\Library-WebAPI.http",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
+              "WhenOpened": "2026-02-23T16:18:40.172Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "User.cs",
               "DocumentMoniker": "C:\\Users\\USER\\Estudo\\Library-WebAPI-Solution\\Library-WebAPI\\Entities\\User.cs",
               "RelativeDocumentMoniker": "Library-WebAPI\\Entities\\User.cs",
               "ToolTip": "C:\\Users\\USER\\Estudo\\Library-WebAPI-Solution\\Library-WebAPI\\Entities\\User.cs",
               "RelativeToolTip": "Library-WebAPI\\Entities\\User.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAFAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-19T20:54:51.998Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-19T20:54:51.998Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 8,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\USER\\Estudo\\Library-WebAPI-Solution\\Library-WebAPI\\appsettings.json",
               "RelativeDocumentMoniker": "Library-WebAPI\\appsettings.json",
               "ToolTip": "C:\\Users\\USER\\Estudo\\Library-WebAPI-Solution\\Library-WebAPI\\appsettings.json",
               "RelativeToolTip": "Library-WebAPI\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAlAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
               "WhenOpened": "2026-02-19T20:53:49.018Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 10,
               "Title": "Library-WebAPI.csproj",
               "DocumentMoniker": "C:\\Users\\USER\\Estudo\\Library-WebAPI-Solution\\Library-WebAPI\\Library-WebAPI.csproj",
               "RelativeDocumentMoniker": "Library-WebAPI\\Library-WebAPI.csproj",
