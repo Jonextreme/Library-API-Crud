@@ -1,3 +1,6 @@
+using Library_WebAPI.Context;
+using Microsoft.EntityFrameworkCore;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
@@ -8,8 +11,8 @@ builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
 string? sqlServerConnectionString = builder.Configuration.GetConnectionString("MyDatabaseConnectionString");
-
-
+builder.Services.AddDbContext<AppDbContext>(options =>
+                options.UseSqlServer(sqlServerConnectionString));
 
 var app = builder.Build();
 
