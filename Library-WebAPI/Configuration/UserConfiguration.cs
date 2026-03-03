@@ -10,6 +10,7 @@ namespace Library_WebAPI.Configuration
         {
             builder.HasKey(x => x.UserId);
             builder.Property(x => x.Name).HasMaxLength(80);
+            builder.Property(x => x.Telephone).HasMaxLength(16);
             builder.Property(x => x.Email).HasMaxLength(100);
             builder.Property(x => x.Permissions).HasConversion<string>().HasMaxLength(20);
             builder.HasMany(x => x.Loans).WithOne(y => y.User).HasForeignKey(y => y.UserId);
