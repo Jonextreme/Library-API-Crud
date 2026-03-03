@@ -2,7 +2,6 @@
 {
     public class BookCreateDTO
     {
-        public int BookId { get; set; }
         public string Title { get; set; } = "";
         public int Year { get; set; }
         public int MinimumAge { get; set; }
