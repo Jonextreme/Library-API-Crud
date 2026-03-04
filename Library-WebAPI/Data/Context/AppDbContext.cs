@@ -2,7 +2,7 @@
 using Library_WebAPI.Entities;
 using Microsoft.EntityFrameworkCore;
 
-namespace Library_WebAPI.Context
+namespace Library_WebAPI.Data.Context
 {
     public class AppDbContext : DbContext
     {

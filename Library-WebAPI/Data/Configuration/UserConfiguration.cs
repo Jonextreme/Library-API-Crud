@@ -2,7 +2,7 @@
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
 
-namespace Library_WebAPI.Configuration
+namespace Library_WebAPI.Data.Configuration
 {
     public class UserConfiguration : IEntityTypeConfiguration<User>
     {

@@ -1,9 +1,9 @@
-﻿using Library_WebAPI.Context;
+﻿using Library_WebAPI.Data.Context;
+using Library_WebAPI.Data.Repositories.Interfaces;
 using Library_WebAPI.Entities;
-using Library_WebAPI.Repositories.Interfaces;
 using Microsoft.EntityFrameworkCore;
 
-namespace Library_WebAPI.Repositories
+namespace Library_WebAPI.Data.Repositories
 {
     public class GenreRepository : IGenreRepository
     {
