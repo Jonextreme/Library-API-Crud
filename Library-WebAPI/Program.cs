@@ -1,4 +1,6 @@
 using Library_WebAPI.Data.Context;
+using Library_WebAPI.Data.Repositories;
+using Library_WebAPI.Data.Repositories.Interfaces;
 using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -13,6 +15,13 @@ builder.Services.AddSwaggerGen();
 string? sqlServerConnectionString = builder.Configuration.GetConnectionString("MyDatabaseConnectionString");
 builder.Services.AddDbContext<AppDbContext>(options =>
                 options.UseSqlServer(sqlServerConnectionString));
+
+builder.Services.AddScoped<IUnityOfWork, UnityOfWork>();
+builder.Services.AddScoped<IAuthorRepository, AuthorRepository>();
+builder.Services.AddScoped<IBookRepository, BookRepository>();
+builder.Services.AddScoped<IGenreRepository, GenreRepository>();
+builder.Services.AddScoped<ILoanRepository, LoanRepository>();
+builder.Services.AddScoped<IUserRepository, UserRepository>();
 
 var app = builder.Build();
 
