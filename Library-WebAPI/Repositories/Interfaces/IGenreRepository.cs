@@ -5,10 +5,9 @@ namespace Library_WebAPI.Repositories.Interfaces
 {
     public interface IGenreRepository
     {
-        public IEnumerable<Genre> GetAll();
-        public Genre? GetById(int id);
-        public Genre Add(Genre genre);
-        public void Update(Genre genre);
-        public void Delete(Genre genre);
+        public Task<IEnumerable<Genre>> GetAll();
+        public Task<Genre?> GetById(int id);
+        public void Add(Genre genre);
+        public void Remove(Genre genre);
     }
 }

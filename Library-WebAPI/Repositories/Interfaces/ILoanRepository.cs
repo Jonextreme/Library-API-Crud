@@ -4,10 +4,9 @@ namespace Library_WebAPI.Repositories.Interfaces
 {
     public interface ILoanRepository
     {
-        public IEnumerable<Loan> GetAll();
-        public Loan GetById(int id);
-        public Loan Add(Loan loan);
-        public void Update(Loan loan);
+        public Task<IEnumerable<Loan>> GetAll();
+        public Task<Loan?> GetById(int id);
+        public void Add(Loan loan);
         public void Remove(Loan loan);
     }
 }
