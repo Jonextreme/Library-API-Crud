@@ -1,6 +1,6 @@
 ﻿using Library_WebAPI.Entities;
 
-namespace Library_WebAPI.Repositories.Interfaces
+namespace Library_WebAPI.Data.Repositories.Interfaces
 {
     public interface IUserRepository
     {

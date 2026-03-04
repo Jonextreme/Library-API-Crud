@@ -1,4 +1,4 @@
-﻿namespace Library_WebAPI.Repositories.Interfaces
+﻿namespace Library_WebAPI.Data.Repositories.Interfaces
 {
     public interface IUnityOfWork
     {

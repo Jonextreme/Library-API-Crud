@@ -2,7 +2,7 @@
 using Library_WebAPI.Entities;
 using Microsoft.AspNetCore.Mvc;
 
-namespace Library_WebAPI.Repositories.Interfaces
+namespace Library_WebAPI.Data.Repositories.Interfaces
 {
     public interface IAuthorRepository
     {
