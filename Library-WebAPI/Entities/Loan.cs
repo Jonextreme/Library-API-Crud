@@ -9,5 +9,9 @@
         public Book Book { get; set; } = new();
         public DateTime BorrowedAt { get; set; }
         public DateTime? ReturnedAt { get; set; }
+        public Loan()
+        {
+            BorrowedAt = DateTime.Now;
+        }
     }
 }
