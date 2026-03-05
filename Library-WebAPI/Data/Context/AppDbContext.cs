@@ -1,4 +1,4 @@
-﻿using Library_WebAPI.Configuration;
+﻿using Library_WebAPI.Data.Configuration;
 using Library_WebAPI.Entities;
 using Microsoft.EntityFrameworkCore;
 

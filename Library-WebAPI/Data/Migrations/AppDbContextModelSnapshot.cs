@@ -34,7 +34,7 @@ namespace Library_WebAPI.Migrations
 
                     b.HasIndex("GenresGenreId");
 
-                    b.ToTable("BookGenre");
+                    b.ToTable("BookGenre", (string)null);
                 });
 
             modelBuilder.Entity("Library_WebAPI.Entities.Author", b =>
@@ -55,7 +55,7 @@ namespace Library_WebAPI.Migrations
 
                     b.HasKey("AuthorId");
 
-                    b.ToTable("Authors");
+                    b.ToTable("Authors", (string)null);
                 });
 
             modelBuilder.Entity("Library_WebAPI.Entities.Book", b =>
@@ -84,7 +84,7 @@ namespace Library_WebAPI.Migrations
 
                     b.HasIndex("AuthorId");
 
-                    b.ToTable("Books");
+                    b.ToTable("Books", (string)null);
                 });
 
             modelBuilder.Entity("Library_WebAPI.Entities.Genre", b =>
@@ -102,7 +102,7 @@ namespace Library_WebAPI.Migrations
 
                     b.HasKey("GenreId");
 
-                    b.ToTable("Genres");
+                    b.ToTable("Genres", (string)null);
                 });
 
             modelBuilder.Entity("Library_WebAPI.Entities.Loan", b =>
@@ -133,7 +133,7 @@ namespace Library_WebAPI.Migrations
 
                     b.HasIndex("UserId");
 
-                    b.ToTable("Loans");
+                    b.ToTable("Loans", (string)null);
                 });
 
             modelBuilder.Entity("Library_WebAPI.Entities.User", b =>
@@ -168,7 +168,7 @@ namespace Library_WebAPI.Migrations
 
                     b.HasKey("UserId");
 
-                    b.ToTable("Users");
+                    b.ToTable("Users", (string)null);
                 });
 
             modelBuilder.Entity("BookGenre", b =>
