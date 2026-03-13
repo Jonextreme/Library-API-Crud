@@ -4,10 +4,10 @@ using Microsoft.EntityFrameworkCore;
 
 namespace Library_WebAPI.Data.Repositories
 {
-    public class UnityOfWork : IUnityOfWork
+    public class UnitOfWork : IUnitOfWork
     {
         private readonly AppDbContext _appDbContext;
-        public UnityOfWork(AppDbContext appDbContext)
+        public UnitOfWork(AppDbContext appDbContext)
         {
             _appDbContext = appDbContext;
         }

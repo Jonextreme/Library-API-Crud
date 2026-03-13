@@ -16,7 +16,7 @@ string? sqlServerConnectionString = builder.Configuration.GetConnectionString("D
 builder.Services.AddDbContext<AppDbContext>(options =>
                 options.UseSqlServer(sqlServerConnectionString));
 
-builder.Services.AddScoped<IUnityOfWork, UnityOfWork>();
+builder.Services.AddScoped<IUnitOfWork, UnitOfWork>();
 builder.Services.AddScoped<IAuthorRepository, AuthorRepository>();
 builder.Services.AddScoped<IBookRepository, BookRepository>();
 builder.Services.AddScoped<IGenreRepository, GenreRepository>();

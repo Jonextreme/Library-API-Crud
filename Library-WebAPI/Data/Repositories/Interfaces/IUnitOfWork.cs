@@ -1,6 +1,6 @@
 ﻿namespace Library_WebAPI.Data.Repositories.Interfaces
 {
-    public interface IUnityOfWork
+    public interface IUnitOfWork
     {
         public Task<int> SaveChangesAsync();
     }
