@@ -12,9 +12,21 @@ namespace Library_WebAPI.Data.Repositories
         {
             _appDbContext = appDbContext;
         }
-        public async Task<IEnumerable<User>> GetAll() => await _appDbContext.Users.AsNoTracking().ToListAsync();
-        public async Task<User?> GetById(int id) => await _appDbContext.Users.FindAsync(id);
-        public void Add(User user) => _appDbContext.Add(user);
-        public void Remove(User user) => _appDbContext.Remove(user);
+        public async Task<IEnumerable<User>> GetAll()
+        {
+            return await _appDbContext.Users.AsNoTracking().ToListAsync();
+        }
+        public async Task<User?> GetById(int id)
+        {
+            return await _appDbContext.Users.Include(x => x.Loans).FirstOrDefaultAsync(x => x.UserId == id);
+        }
+        public void Add(User user)
+        {
+            _appDbContext.Add(user);
+        }
+        public void Remove(User user)
+        {
+            _appDbContext.Remove(user);
+        }
     }
 }
