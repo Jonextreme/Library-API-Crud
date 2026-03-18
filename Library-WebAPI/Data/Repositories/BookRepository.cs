@@ -18,7 +18,7 @@ namespace Library_WebAPI.Data.Repositories
         }
         public async Task<Book?> GetById(int id)
         {
-            return await _appDbContext.Books.Include(x => x.Author).Include(x => x.Genres).Include(x => x.Loans).FirstOrDefaultAsync(x => x.BookId == id);
+            return await _appDbContext.Books.Include(x => x.Author).Include(x => x.Genres).Include(x => x.Loans).ThenInclude(x => x.User).FirstOrDefaultAsync(x => x.BookId == id);
         }
         public void Add(Book book) 
         {
