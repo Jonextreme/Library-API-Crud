@@ -22,11 +22,11 @@ namespace Library_WebAPI.Data.Repositories
         }
         public void Add(Loan loan)
         {
-            _appDbContext.Add(loan);
+            _appDbContext.Loans.Add(loan);
         }
         public void Remove(Loan loan)
         {
-            _appDbContext.Remove(loan);
+            _appDbContext.Loans.Remove(loan);
         }
     }
 }

@@ -22,11 +22,11 @@ namespace Library_WebAPI.Data.Repositories
         }
         public void Add(User user)
         {
-            _appDbContext.Add(user);
+            _appDbContext.Users.Add(user);
         }
         public void Remove(User user)
         {
-            _appDbContext.Remove(user);
+            _appDbContext.Users.Remove(user);
         }
     }
 }

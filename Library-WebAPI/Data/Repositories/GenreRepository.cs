@@ -22,11 +22,11 @@ namespace Library_WebAPI.Data.Repositories
         }
         public void Add(Genre genre)
         {
-            _appDbContext.Add(genre);
+            _appDbContext.Genres.Add(genre);
         }
         public void Remove(Genre genre)
         {
-            _appDbContext.Remove(genre);
+            _appDbContext.Genres.Remove(genre);
         }
     }
 }

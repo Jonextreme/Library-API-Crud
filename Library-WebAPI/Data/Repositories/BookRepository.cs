@@ -22,11 +22,11 @@ namespace Library_WebAPI.Data.Repositories
         }
         public void Add(Book book) 
         {
-            _appDbContext.Add(book);
+            _appDbContext.Books.Add(book);
         } 
         public void Remove(Book book)
         {
-            _appDbContext.Remove(book);
+            _appDbContext.Books.Remove(book);
         }
     }
 }
