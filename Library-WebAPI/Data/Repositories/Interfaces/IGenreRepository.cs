@@ -7,7 +7,7 @@ namespace Library_WebAPI.Data.Repositories.Interfaces
     {
         public Task<IEnumerable<Genre>> GetAllAsync();
         public Task<Genre?> GetByIdAsync(int id);
-        public Task<IEnumerable<Genre>> GetByIdsAsync();
+        public Task<IEnumerable<Genre>> GetByIdsAsync(IEnumerable<int> genreIds);
         public void Add(Genre genre);
         public void Remove(Genre genre);
     }
