@@ -7,7 +7,7 @@ namespace Library_WebAPI.Services.Interfaces
     {
         public Task<IEnumerable<GenreListDTO>> GetAllGenresAsync();
         public Task<GenreDetailsDTO> GetGenreByIdAsync(int id);
-        public Task<GenreDetailsDTO> CreateGenreAsync(GenreCreateDTO genre);
+        public Task<GenreDetailsDTO> CreateGenreAsync(GenreCreateDTO genreCreate);
         public Task DeleteGenreAsync(int id);
     }
 }

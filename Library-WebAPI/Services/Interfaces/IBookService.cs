@@ -6,7 +6,7 @@ namespace Library_WebAPI.Services.Interfaces
     {
         public Task<IEnumerable<BookListDTO>> GetAllBooksAsync();
         public Task<BookDetailsDTO> GetBookByIdAsync(int id);
-        public Task<BookDetailsDTO> CreateBookAsync(BookCreateDTO book);
+        public Task<BookDetailsDTO> CreateBookAsync(BookCreateDTO bookCreate);
         public Task DeleteBookAsync(int id);
     }
 }
