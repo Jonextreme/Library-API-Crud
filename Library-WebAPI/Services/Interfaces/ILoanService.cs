@@ -5,9 +5,9 @@ namespace Library_WebAPI.Services.Interfaces
 {
     public interface ILoanService
     {
-        public Task<IEnumerable<LoanListDTO>> GetAllLoans();
-        public Task<LoanListDTO> GetLoanById(int id);
-        public Task<LoanListDTO> CreateLoan(LoanCreateDTO loan);
-        public Task DeleteLoan(int id);
+        public Task<IEnumerable<LoanListDTO>> GetAllLoansAsync();
+        public Task<LoanListDTO> GetLoanByIdAsync(int id);
+        public Task<LoanListDTO> CreateLoanAsync(LoanCreateDTO loan);
+        public Task DeleteLoanAsync(int id);
     }
 }

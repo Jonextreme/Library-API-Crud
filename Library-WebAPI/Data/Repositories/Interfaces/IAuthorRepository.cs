@@ -6,8 +6,8 @@ namespace Library_WebAPI.Data.Repositories.Interfaces
 {
     public interface IAuthorRepository
     {
-        public Task<IEnumerable<Author>> GetAll();
-        public Task<Author?> GetById(int id);
+        public Task<IEnumerable<Author>> GetAllAsync();
+        public Task<Author?> GetByIdAsync(int id);
         public void Add(Author author);
         public void Remove(Author author);
     }

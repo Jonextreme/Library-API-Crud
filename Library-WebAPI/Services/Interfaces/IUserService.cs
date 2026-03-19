@@ -4,9 +4,9 @@ namespace Library_WebAPI.Services.Interfaces
 {
     public interface IUserService
     {
-        public Task<IEnumerable<UserListDTO>> GetAllUsers();
-        public Task<UserDetailsDTO> GetUserById(int id);
-        public Task<UserDetailsDTO> CreateUser(UserCreateDTO user);
-        public Task DeleteUser(int id);
+        public Task<IEnumerable<UserListDTO>> GetAllUsersAsync();
+        public Task<UserDetailsDTO> GetUserByIdAsync(int id);
+        public Task<UserDetailsDTO> CreateUserAsync(UserCreateDTO user);
+        public Task DeleteUserAsync(int id);
     }
 }

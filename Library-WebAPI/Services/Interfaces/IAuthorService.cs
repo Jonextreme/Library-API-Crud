@@ -4,9 +4,9 @@ namespace Library_WebAPI.Services.Interfaces
 {
     public interface IAuthorService
     {
-        public Task<IEnumerable<AuthorListDTO>> GetAllAuthors();
-        public Task<AuthorDetailsDTO> GetAuthorById(int id);
-        public Task<AuthorDetailsDTO> CreateAuthor(AuthorCreateDTO author);
-        public Task DeleteAuthor(int id);
+        public Task<IEnumerable<AuthorListDTO>> GetAllAuthorsAsync();
+        public Task<AuthorDetailsDTO> GetAuthorByIdAsync(int id);
+        public Task<AuthorDetailsDTO> CreateAuthorAsync(AuthorCreateDTO author);
+        public Task DeleteAuthorAsync(int id);
     }
 }
