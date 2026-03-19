@@ -13,11 +13,6 @@
         {
             BorrowedAt = DateTime.Now;
         }
-        public Loan(User user, Book book) : base()
-        {
-            SetUser(user);
-            SetBook(book);
-        }
         public void SetUser(User user)
         {
             if(user is null)
