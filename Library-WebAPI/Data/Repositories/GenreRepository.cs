@@ -20,6 +20,10 @@ namespace Library_WebAPI.Data.Repositories
         {
             return await _appDbContext.Genres.Include(x => x.Books).FirstOrDefaultAsync(x => x.GenreId == id);
         }
+        public async Task<IEnumerable<Genre>> GetByIdsAsync(IEnumerable<int> genresIds)
+        {
+            return await _appDbContext.Genres.Where(x => genresIds.Distinct().Contains(x.GenreId)).AsNoTracking().ToListAsync();
+        }
         public void Add(Genre genre)
         {
             _appDbContext.Genres.Add(genre);
