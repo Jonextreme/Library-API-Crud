@@ -1,6 +1,8 @@
 using Library_WebAPI.Data.Context;
 using Library_WebAPI.Data.Repositories;
 using Library_WebAPI.Data.Repositories.Interfaces;
+using Library_WebAPI.Services;
+using Library_WebAPI.Services.Interfaces;
 using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -17,11 +19,18 @@ builder.Services.AddDbContext<AppDbContext>(options =>
                 options.UseSqlServer(sqlServerConnectionString));
 
 builder.Services.AddScoped<IUnitOfWork, UnitOfWork>();
+
 builder.Services.AddScoped<IAuthorRepository, AuthorRepository>();
 builder.Services.AddScoped<IBookRepository, BookRepository>();
 builder.Services.AddScoped<IGenreRepository, GenreRepository>();
 builder.Services.AddScoped<ILoanRepository, LoanRepository>();
 builder.Services.AddScoped<IUserRepository, UserRepository>();
+
+builder.Services.AddScoped<IAuthorService, AuthorService>();
+builder.Services.AddScoped<IBookService, BookService>();
+builder.Services.AddScoped<IGenreService, GenreService>();
+builder.Services.AddScoped<ILoanService, LoanService>();
+builder.Services.AddScoped<IUserService, UserService>();
 
 var app = builder.Build();
 
