@@ -35,7 +35,7 @@ namespace Library_WebAPI.Controllers
         }
 
         [HttpPost]
-        public async Task<ActionResult<LoanListDTO>> CreateLoan(LoanCreateDTO loanCreate)
+        public async Task<ActionResult<LoanListDTO>> CreateLoan(LoanWriteDTO loanCreate)
         {
             var loan = await _loanService.CreateLoanAsync(loanCreate);
             return CreatedAtAction(nameof(GetLoanById), new { id = loan.LoanId }, loan);

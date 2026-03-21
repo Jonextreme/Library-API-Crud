@@ -33,7 +33,7 @@ namespace Library_WebAPI.Controllers
         }
 
         [HttpPost]
-        public async Task<ActionResult<GenreDetailsDTO>> CreateGenre(GenreCreateDTO genreCreate)
+        public async Task<ActionResult<GenreDetailsDTO>> CreateGenre(GenreWriteDTO genreCreate)
         {
             var genre = await _genreService.CreateGenreAsync(genreCreate);
             return CreatedAtAction(nameof(GetGenreById), new { id = genre.GenreId }, genre);

@@ -32,7 +32,7 @@ namespace Library_WebAPI.Controllers
         }
 
         [HttpPost]
-        public async Task<ActionResult<AuthorDetailsDTO>> CreateAuthor(AuthorCreateDTO authorCreate)
+        public async Task<ActionResult<AuthorDetailsDTO>> CreateAuthor(AuthorWriteDTO authorCreate)
         {
             var author = await _authorService.CreateAuthorAsync(authorCreate);
             return CreatedAtAction(nameof(GetAuthorById), new { id = author.AuthorId }, author);

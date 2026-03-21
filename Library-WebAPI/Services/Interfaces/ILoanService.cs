@@ -7,7 +7,7 @@ namespace Library_WebAPI.Services.Interfaces
     {
         public Task<IEnumerable<LoanListDTO>> GetAllLoansAsync();
         public Task<LoanListDTO> GetLoanByIdAsync(int id);
-        public Task<LoanListDTO> CreateLoanAsync(LoanCreateDTO loanCreate);
+        public Task<LoanListDTO> CreateLoanAsync(LoanWriteDTO loanCreate);
         public Task DeleteLoanAsync(int id);
     }
 }

@@ -33,7 +33,7 @@ namespace Library_WebAPI.Controllers
         }
 
         [HttpPost]
-        public async Task<ActionResult<UserDetailsDTO>> CreateUser(UserCreateDTO userCreate)
+        public async Task<ActionResult<UserDetailsDTO>> CreateUser(UserWriteDTO userCreate)
         {
             var user = await _userService.CreateUserAsync(userCreate);
             return CreatedAtAction(nameof(GetUserById), new { id = user.UserId }, user);

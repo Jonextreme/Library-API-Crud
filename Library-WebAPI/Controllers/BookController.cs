@@ -32,7 +32,7 @@ namespace Library_WebAPI.Controllers
         }
 
         [HttpPost]
-        public async Task<ActionResult<BookDetailsDTO>> CreateBook(BookCreateDTO bookCreate)
+        public async Task<ActionResult<BookDetailsDTO>> CreateBook(BookWriteDTO bookCreate)
         {
             var book = await _bookService.CreateBookAsync(bookCreate);
             return CreatedAtAction(nameof(GetBookById), new { id = book.BookId }, book);
