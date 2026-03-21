@@ -11,7 +11,16 @@ namespace Library_WebAPI.Entities
         public DateTime Birthdate { get; private set; }
         public Permissions Permissions { get; private set; }
         public ICollection<Loan> Loans { get; private set; } = new List<Loan>();
-
+        public int Age
+        {
+            get
+            {
+                var age = DateTime.Now.Year - Birthdate.Year;
+                if (Birthdate.Date > DateTime.Now.AddDays(-age)) // If the user did not have a birthday this year
+                    age--;
+                return age;
+            }
+        }
         public User() { }
         public User(string name, string telephone, string? email, DateTime birthDate)
         {
