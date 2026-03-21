@@ -32,7 +32,7 @@ namespace Library_WebAPI.Services
             var genreDetailsDTO = GenreMapper.ToDetailsDTO(genre);
             return genreDetailsDTO;
         }
-        public async Task<GenreDetailsDTO> CreateGenreAsync(GenreCreateDTO genreCreate)
+        public async Task<GenreDetailsDTO> CreateGenreAsync(GenreWriteDTO genreCreate)
         {
             var genre = new Genre(genreCreate.GenreName);
 

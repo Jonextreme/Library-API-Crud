@@ -3,7 +3,7 @@ using Library_WebAPI.Enums;
 
 namespace Library_WebAPI.DTOs.UserDTOs
 {
-    public class UserCreateDTO
+    public class UserWriteDTO
     {
         [Required]
         [MaxLength(80)]

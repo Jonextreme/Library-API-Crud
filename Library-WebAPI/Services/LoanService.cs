@@ -37,7 +37,7 @@ namespace Library_WebAPI.Services
             var loanListDTO = LoanMapper.ToListDTO(loan);
             return loanListDTO;
         }
-        public async Task<LoanListDTO> CreateLoanAsync(LoanCreateDTO loanCreate)
+        public async Task<LoanListDTO> CreateLoanAsync(LoanWriteDTO loanCreate)
         {
             var loan = new Loan();
             var user = await _userRepository.GetByIdAsync(loanCreate.UserId);

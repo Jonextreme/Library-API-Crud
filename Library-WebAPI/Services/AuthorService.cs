@@ -34,7 +34,7 @@ namespace Library_WebAPI.Services
             var authorDetailsDTO = AuthorMapper.ToDetailsDTO(author);
             return authorDetailsDTO;
         }
-        public async Task<AuthorDetailsDTO> CreateAuthorAsync(AuthorCreateDTO authorCreate)
+        public async Task<AuthorDetailsDTO> CreateAuthorAsync(AuthorWriteDTO authorCreate)
         {
             var author = new Author(authorCreate.Name, authorCreate.Biography);
 

@@ -2,7 +2,7 @@
 
 namespace Library_WebAPI.DTOs.LoanDTOs
 {
-    public class LoanCreateDTO
+    public class LoanWriteDTO
     {
         [Required]
         public int UserId { get; set; }

@@ -2,7 +2,7 @@
 
 namespace Library_WebAPI.DTOs.BookDTOs
 {
-    public class BookCreateDTO
+    public class BookWriteDTO
     {
         [Required]
         [MaxLength(50)]

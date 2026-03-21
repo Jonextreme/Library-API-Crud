@@ -2,7 +2,7 @@
 
 namespace Library_WebAPI.DTOs.GenreDTOs
 {
-    public class GenreCreateDTO
+    public class GenreWriteDTO
     {
         [Required]
         [MaxLength(30)]

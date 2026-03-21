@@ -6,7 +6,7 @@ namespace Library_WebAPI.Services.Interfaces
     {
         public Task<IEnumerable<AuthorListDTO>> GetAllAuthorsAsync();
         public Task<AuthorDetailsDTO> GetAuthorByIdAsync(int id);
-        public Task<AuthorDetailsDTO> CreateAuthorAsync(AuthorCreateDTO authorCreate);
+        public Task<AuthorDetailsDTO> CreateAuthorAsync(AuthorWriteDTO authorCreate);
         public Task DeleteAuthorAsync(int id);
     }
 }

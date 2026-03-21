@@ -32,7 +32,7 @@ namespace Library_WebAPI.Services
             var userDetailsDTO = UserMapper.ToDetailsDTO(user);
             return userDetailsDTO;
         }
-        public async Task<UserDetailsDTO> CreateUserAsync(UserCreateDTO userCreate)
+        public async Task<UserDetailsDTO> CreateUserAsync(UserWriteDTO userCreate)
         {
             var user = new User(userCreate.Name, userCreate.Telephone, userCreate.Email, userCreate.Birthdate);
 

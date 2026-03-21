@@ -2,7 +2,7 @@
 
 namespace Library_WebAPI.DTOs.AuthorDTOs
 {
-    public class AuthorCreateDTO
+    public class AuthorWriteDTO
     {
         [Required]
         [MaxLength(80)]

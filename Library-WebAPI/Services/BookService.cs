@@ -44,7 +44,7 @@ namespace Library_WebAPI.Services
             var bookDetailsDTO = BookMapper.ToDetailsDTO(book);
             return bookDetailsDTO;
         }
-        public async Task<BookDetailsDTO> CreateBookAsync(BookCreateDTO bookCreate)
+        public async Task<BookDetailsDTO> CreateBookAsync(BookWriteDTO bookCreate)
         {
             var book = new Book(bookCreate.Title, bookCreate.Year, bookCreate.MinimumAge);
             var author = await _authorRepository.GetByIdAsync(bookCreate.AuthorId);
